@@ -1,3 +1,4 @@
+/* All pages */
 * {
     margin: 0;
     padding: 0;
@@ -5,14 +6,16 @@
     box-sizing: border-box;
 }
 
+/* Header */
 .emaa {
     width: 100%;
     min-height: 100vh;
-	background-color: #faf7f0;
+    background-color: #faf7f0;
     color: #000;
-	padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
+/* Header */
 nav {
     background: linear-gradient(to bottom, #d4a373, #faedcd, #f4eddb);
     width: 100%;
@@ -23,14 +26,17 @@ nav {
     position: relative;
 }
 
+/* Header */
 #menu {
-	font-size: 130%;
+    font-size: 130%;
 }
 
+/* Emaa's logo size */
 .logo {
     width: 120px;
 }
 
+/* Profile picture */
 .user-pic {
     width: 40px;
     border-radius: 50%;
@@ -38,22 +44,26 @@ nav {
     margin-left: 30px;
 }
 
+/* Header */
 nav ul {
     width: 100%;
     text-align: right;
 }
 
+/* Header */
 nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
 }
 
+/* Header */
 nav ul li a {
     color: #000;
     text-decoration: none;
 }
 
+/* Header profile menu */
 .sub-menu-wrap {
     position: absolute;
     top: 100%;
@@ -64,31 +74,37 @@ nav ul li a {
     transition: max-height 0.5s;
 }
 
+/* Header profile menu */
 .sub-menu-wrap.open-menu {
     max-height: 400px;
 }
 
+/* Header profile menu */
 .sub-menu {
     background: #fff;
     padding: 20px;
     margin: 10px;
 }
 
+/* Header profile menu */
 .user-info {
     display: flex;
     align-items: center;
 }
 
+/* Header profile menu */
 .user-info h3 {
     font-weight: 400;
 }
 
+/* Header profile menu */
 .user-info img {
     width: 50px;
     border-radius: 50%;
     margin-right: 15px;
 }
 
+/* Header profile menu */
 .sub menu hr {
     border: 0;
     height: 1px;
@@ -97,6 +113,7 @@ nav ul li a {
     margin: 15px 0 10px;
 }
 
+/* Header profile menu */
 .sub-menu-link {
     display: flex;
     align-items: center;
@@ -105,10 +122,12 @@ nav ul li a {
     margin: 12px 0;
 }
 
+/* Header profile menu */
 .sub-menu-link p {
     width: 100%;
 }
 
+/* Header profile menu */
 .sub-menu-link img {
     width: 40px;
     background: #e5e5e5;
@@ -117,6 +136,7 @@ nav ul li a {
     margin-right: 15px;
 }
 
+/* Header profile menu */
 .sub-menu-link span {
     font-size: 22px;
     transition: transform 0.5s;
@@ -126,37 +146,43 @@ nav ul li a {
     transform: translateX(5px);
 }
 
+/* Header profile menu */
 .sub-menu-link:hover p {
     font-weight: 600;
 }
+
+/* Address */
 address {
-    background:linear-gradient(to top, #a1b498, #e9edc9);
+    background: linear-gradient(to top, #a1b498, #e9edc9);
     display: block;
     color: #000;
     font-style: italic;
-    text-align: center ;
+    text-align: center;
     font-size: 12px;
 }
+
+/* Cite */
 cite {
     font-style: italic;
-    background:linear-gradient(to bottom, #a1b498, #e9edc9);
+    background: linear-gradient(to bottom, #a1b498, #e9edc9);
     display: block;
-    text-align: center ;
+    text-align: center;
     font-size: 12px;
-  }
-  
- .PageTitle {
-	text-align: center;
-	background: rgba(212, 163, 115, 0.4);
-	padding: 20px;
-	margin: 50px 100px 40px 1310px;
-	border-radius: 0px 25px 0px 25px;
- }
- 
- div.BodyBox {
-	text-align: right;
-	background: rgba(212, 163, 115, 0.3);
-	padding: 20px;
-	margin: 40px 130px 20px 130px;
-	border-radius: 0px 25px 0px 25px;
- }
+}
+
+/* Page title in all pages */
+.PageTitle {
+    text-align: center;
+    background: rgba(212, 163, 115, 0.4);
+    padding: 20px;
+    margin: 50px 100px 40px 1310px;
+    border-radius: 0px 25px 0px 25px;
+}
+/* BodyBox in all pages */
+div.BodyBox {
+    text-align: right;
+    background: rgba(212, 163, 115, 0.3);
+    padding: 20px;
+    margin: 40px 130px 20px 130px;
+    border-radius: 0px 25px 0px 25px;
+}
