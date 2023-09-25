@@ -189,9 +189,18 @@ div.BodyBox {
     border-radius: 0px 25px 0px 25px;
 }
 
-/* BodyBox Heading 1 in all pages */
-div.BodyBox h1 {
+/* BodyBox Heading 1 and 2 in all pages */
+div.BodyBox h1, h2 {
+	margin-top: 10px;
 	margin-bottom: 20px;
+	background: rgba(212, 163, 115, 0.3);
+	padding: 5px;
+    border-radius: 0px 15px 0px 15px;
+}
+
+/* BodyBox Heading 2 in all pages */
+div.BodyBox h2 {
+	margin-top: 30px;
 }
 
 /* BodyBox Paragraph in all pages */
@@ -206,7 +215,8 @@ div.BodyBox p{
 ======================   HOMEPAGE   ======================
  */
 
-div.BodyBox li *{
+/* List items of BodyBox in home page only */
+div.BodyBox ol *{
     background: rgba(212, 163, 115, 0.3);
     padding: 10px;
     margin: 10px;
@@ -215,6 +225,7 @@ div.BodyBox li *{
 	line-height: 30px;
 }
 
+/* List items of BodyBox in home page only */
 #List {
 	margin-left: 40px;
 	margin-top: 10px;
@@ -222,6 +233,7 @@ div.BodyBox li *{
 	font-size: 20px;
 }
 
+/* Nested list items of BodyBox in home page only */
 #NestedList1 {
 	margin-left: 20px;
 	margin-bottom: 10px;
@@ -230,10 +242,88 @@ div.BodyBox li *{
 	font-size: 18px;
 }
 
+/* Nested nested list items of BodyBox in home page only */
 #NestedList2 {
 	margin-left: 20px;
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
 
+/* LinkedBotton in home page only */
+.LinkedBotton {
+	text-align: center;
+	font-size:35px;
+    background: rgba(212, 163, 115, 0.5);
+    padding: 20px;
+    margin: 40px 600px 0px 600px;
+    border-radius: 0px 25px 0px 25px;
+}
+
+/* LinkedBotton in home page only */
+.LinkedBotton p {
+	font-family: Times New Roman;
+}
+
+/* LinkedBotton in home page only */
+.LinkedBotton:hover {
+    background: rgba(212, 163, 115, 0.8);
+}
+
+/* LinkedBotton in home page only */
+.LinkedBotton a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* 
+======================   LEVELS   ======================
+ */
+
+  /* Levels container in Levels page only */
+.Levels img {
+	 border-radius: 50%;
+	 margin-bottom: 10px;
+	 }
+	 
+ /*  in Levels page only */
+.Levels P {
+	font-size: 16px;
+    background: rgba(212, 163, 115, 0.4);
+	color: #966157;
+	position: absolute;
+	padding: 10px;
+    border-radius: 15px;
+}
  
+ /* Levels img left side in Levels page only */
+.leftLvl {
+	margin-left: 470px;
+}
+
+ /* Levels img right side in Levels page only */
+.rightLvl {
+	margin-left: 650px;
+}
+
+ /* Levels description left side in Levels page only */
+#leftP {
+	margin: 10px 930px auto 160px;
+}
+
+ /* Levels description right side in Levels page only */
+#rightP {
+	margin: 10px 315px auto 775px;
+	}
+	
+		 
+ /* revision img in Levels page only */
+#rivision {
+	margin: 50px auto 100px 475px;
+	 }
+
+ /* revision description in Levels page only */	 
+#revisionP {
+	margin: 170px auto 0px 280px;
+}
+	
