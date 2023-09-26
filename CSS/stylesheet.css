@@ -1,10 +1,12 @@
-/*  Name: Hadeel Abuhamous ID: 2006291
+/*  
+	Name: Hadeel Abuhamous ID: 2006291
     Name: Dima Kanawati    ID: 1917074
     Date: 20 September 2023  
 
     ======================   All pages stylesheet   ======================
 */
 
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -182,7 +184,8 @@ cite {
     font-size: 12px;
 }
 
-#SignLang {
+/* img with id SignLangimg */
+#SignLangimg {
 	float: right;
     border-radius: 25%;
 	margin-left: 50px;
@@ -221,7 +224,8 @@ div.BodyBox h2 {
 	margin-top: 30px;
 }
 
-div.BodyBox #signimg {
+/* BodyBox img with id signimgH */
+div.BodyBox #signimgH {
 	margin-right: 450px;
 }
 
@@ -230,7 +234,7 @@ div.BodyBox p{
 	font-size: 20px;
 }
 
-/* BodyBox description list in all pages */
+/* BodyBox description list dt in all pages */
 .BodyBox dl dt {
 	font-weight: bold;
 	font-size: 20px;
@@ -240,7 +244,7 @@ div.BodyBox p{
     border-radius: 0px 15px 0px 15px;
 }
 
-/* BodyBox description list in all pages */
+/* BodyBox description list dd in all pages */
 .BodyBox dl dd {
 	font-size: 18px;
 	margin-left: 35px;

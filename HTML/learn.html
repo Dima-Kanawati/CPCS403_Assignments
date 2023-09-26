@@ -11,25 +11,42 @@
         <link rel="stylesheet" href="../CSS/stylesheet.css">
     </head>
     <body>
+		
+		<!-- Main content wrapper div -->
         <div class="emaa">
+			
+			<!-- Navigation section -->
             <nav>
+			
+				<!-- Website logo linked to homepage -->
                 <a href = "homepage.html"><img src="../image/logo.png" class="logo"></a>
-                <ul id="menu">
+                
+				<!-- Main menu items -->
+				<ul id="menu">
+					
+					<!-- Menu items with navigation links -->
                     <li><a href = "homepage.html">Home</a></li>
                     <li><a href = "levels.html">Levels</a></li>
                     <li><a href = "learn.html">Learn</a></li>
                     <li><a href = "leaderboard.html">Leaderboard</a></li>
                     <li><a href = "contact.html">Contact</a></li>
                 </ul>
+				
+				<!-- User profile picture with a click event to show sub-menu -->
                 <img src="../image/user.png" class="user-pic" onclick="ToggleMenu()">
-                <div class="sub-menu-wrap" id = "subMenu">
+                
+				<!-- Dropdown sub-menu for the user, initially hidden -->
+				<div class="sub-menu-wrap" id = "subMenu">
                     <div class="sub-menu">
+					
+						<!-- User information section -->
                         <div class="user-info">
                             <img src="../image/User.png">
                             <h2 id="username">Hadi Abukan</h2>
                         </div>
                         <hr>
 
+						<!-- Sub-menu navigation items with respective icons -->
                         <a href="profile.html" class="sub-menu-link">
                             <img src="../image/profile.png">
                             <p>Edit Profile</p>
@@ -49,10 +66,11 @@
                     </div>
                 </div>
             </nav>
-        
-		<hr>
 			
-			<!-- Page Title -->
+			 <!-- Horizontal divider -->
+			<hr>
+			
+			 <!-- Display the title of the current page -->
 			<div class="PageTitle">
 				<p>Learn</p>
 			</div>
@@ -61,13 +79,18 @@
 			
 		
 		</div>
+		
+		<!-- JavaScript function to toggle the user's sub-menu -->
         <script>
             let subMenu = document.getElementById("subMenu");
             function ToggleMenu(){
                 subMenu.classList.toggle("open-menu");
             }
         </script>
+		
     </body>
+	
+	<!-- Footer section with contact information and copyright information  -->
     <address>
         Address: FCIT<br>
         Contact us at the email <a href="mailto:Emaa@gmail.com">Emaa</a><br>
