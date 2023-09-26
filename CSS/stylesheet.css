@@ -157,6 +157,11 @@ nav ul li a {
     font-weight: 600;
 }
 
+/* Header profile menu */
+#username {
+	background-color: white;
+}
+
 /* Address */
 address {
     background: linear-gradient(to top, #a1b498, #e9edc9);
