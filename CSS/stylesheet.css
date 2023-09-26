@@ -257,7 +257,7 @@ div.BodyBox p{
  */
 
 /* List items of BodyBox in home page only */
-div.BodyBox ol *{
+div.BodyBox ol li {
     background: rgba(212, 163, 115, 0.3);
     padding: 10px;
     margin: 10px;
