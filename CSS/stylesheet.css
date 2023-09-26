@@ -234,7 +234,10 @@ div.BodyBox p{
 .BodyBox dl dt {
 	font-weight: bold;
 	font-size: 20px;
-	margin-left: 20px;
+	margin: 0px 800px 5px 20px;
+	background: rgba(212, 163, 115, 0.3);
+    padding: 2px;
+    border-radius: 0px 15px 0px 15px;
 }
 
 /* BodyBox description list in all pages */
