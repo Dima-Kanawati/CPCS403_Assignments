@@ -1,11 +1,16 @@
 /*  
+	Assignment 2
 	Group Number: 3
 	Name: Hadeel Abuhamous ID: 2006291
     Name: Dima Kanawati    ID: 1917074
 	Section: BAR
-    Date: 20 September 2023  
+    Date: 25 October 2023  
 
-    ======================   All pages stylesheet   ======================
+    
+*/
+
+/*
+	======================   All pages stylesheet   ======================
 */
 
 /* Global Styles */
@@ -263,8 +268,8 @@ div.BodyBox p {
 
 
 /* 
-======================   HOMEPAGE   ======================
- */
+	======================   HOMEPAGE   ======================
+*/
 
 /* List items of BodyBox in home page only */
 div.BodyBox ol li {
@@ -319,10 +324,29 @@ div.BodyBox ol li {
     text-decoration: none;
 }
 
+/*
+	======================   Learn   =======================
+*/
+
+.tablePlan table {
+    width: 100%;
+    border-collapse: collapse;
+}
+		
+.tablePlan th {
+	background-color: rgba(212, 163, 115, 0.5);
+}
+		
+.tablePlan th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
 
 /* 
-======================   LEVELS   ======================
- */
+	======================   LEVELS   ======================
+*/
 
 /* Levels container in Levels page only */
 .Levels img {
@@ -372,8 +396,8 @@ div.BodyBox ol li {
 }
 
 /* 
-======================   CONTACT   ======================
- */
+	======================   CONTACT   ======================
+*/
 
 /* BodyBox for Contact page */
 div.BodyBoxContact {
@@ -387,8 +411,9 @@ div.BodyBoxContact {
 }
 
 /* 
-======================   Login and Signup   ======================
- */
+	======================   Login and Signup   ======================
+*/
+
 /*Import font*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
