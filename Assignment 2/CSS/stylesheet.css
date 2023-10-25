@@ -328,21 +328,36 @@ div.BodyBox ol li {
 	======================   Learn   =======================
 */
 
+.tablePlan table, th, td {
+	border-radius: 10px;
+}
+
 .tablePlan table {
-    width: 100%;
-    border-collapse: collapse;
+    width: 75%;
+	border-spacing: 5px;
+	padding: 7px;
+	empty-cells: hide;
+	background-color: rgba(255, 255, 255, 0.4);
+	margin: auto;
 }
-		
-.tablePlan th {
-	background-color: rgba(212, 163, 115, 0.5);
-}
-		
+			
 .tablePlan th, td {
-    border: 1px solid black;
+	border: 1px solid rgba(0, 0, 0, 0.5);
     padding: 8px;
     text-align: center;
 }
+	
+.tablePlan th {
+	background-color: rgba(212, 163, 115, 0.6);
+}
 
+.tablePlan th.subHead {
+	background-color: rgba(212, 163, 115, 0.3);	
+}
+
+.tablePlan td {
+	background-color: rgba(255, 255, 255, 0.1);
+}
 
 /* 
 	======================   LEVELS   ======================
