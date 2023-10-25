@@ -1,0 +1,117 @@
+<!--
+	Group Number: 3
+    Name: Hadeel Abuhamous ID: 2006291
+    Name: Dima Kanawati    ID: 1917074
+	Section: BAR
+    Date: 20 October 2023  
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Feedback Form</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
+</head>
+
+<body>
+	<!-- Main content wrapper div -->
+	<div class="emaa">
+		<!-- Navigation section -->
+		<nav>
+			<!-- Website logo linked to homepage -->
+			<a href="homepage.html"><img src="../image/logo.png" class="logo"></a>
+
+			<!-- Main menu items -->
+			<ul id="menu">
+
+				<!-- Menu items with navigation links -->
+				<li><a href="index.html">Home</a></li>
+				<li><a href="levels.html">Levels</a></li>
+				<li><a href="learn.html">Learn</a></li>
+				<li><a href="leaderboard.html">Leaderboard</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+
+			<!-- User profile picture with a click event to show sub-menu -->
+			<img src="../image/user.png" class="user-pic" onclick="ToggleMenu()">
+
+			<!-- Dropdown sub-menu for the user, initially hidden -->
+			<div class="sub-menu-wrap" id="subMenu">
+				<div class="sub-menu">
+
+					<!-- User information section -->
+					<div class="user-info">
+						<img src="../image/user.png">
+						<h2 id="username">Hadi Abukan</h2>
+					</div>
+					<hr>
+
+					<!-- Sub-menu navigation items with respective icons -->
+					<a href="profile.html" class="sub-menu-link">
+						<img src="../image/profile.png">
+						<p>Edit Profile</p>
+						<span>></span>
+					</a>
+					<a href="contact.html" class="sub-menu-link">
+						<img src="../image/help.png">
+						<p>Help & Support</p>
+						<span>></span>
+					</a>
+
+					<a href="loginSignup.html" class="sub-menu-link">
+						<img src="../image/logout.png">
+						<p>Logout</p>
+						<span>></span>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Horizontal divider -->
+		<hr>
+		<!-- Display the title of the current page -->
+		<div class="PageTitle">
+			<p>Feedback Form</p>
+		</div>
+
+		<body class="feedbackbody">
+			<form action="#" method="post">
+				<fieldset>
+					<legend>Personal Information</legend>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" required><br><br>
+
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required><br><br>
+				</fieldset>
+
+				<fieldset>
+					<legend>Feedback</legend>
+					<label for="rating">How satisfied are you with our Website?</label><br>
+					<input type="radio" id="rating-excellent" name="rating" value="Excellent">Excellent
+					<input type="radio" id="rating-good" name="rating" value="Good">Good
+					<input type="radio" id="rating-fair" name="rating" value="Fair">Fair
+					<input type="radio" id="rating-poor" name="rating" value="Poor">Poor<br><br>
+
+					<label>What section would you like to change? (Check all that apply)</label><br>
+					<input type="checkbox" id="improvement-quiz" name="improvement" value="Quizes">Quizes
+					<input type="checkbox" id="improvement-learn" name="improvement" value="Learn page">Learn page
+					<input type="checkbox" id="improvement-price" name="improvement" value="Levels">Levels
+					<input type="checkbox" id="improvement-customer-service" name="improvement"
+						value="Customer Service">Customer Service<br><br>
+
+					<label for="feedback">Additional Comments:</label><br>
+					<textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
+
+					<label for="typeOfFeedback">Type of Feedback:</label>
+					<select id="typeOfFeedback" name="typeOfFeedback">
+						<option value="General">General</option>
+						<option value="Question">Question</option>
+						<option value="Suggestion">Suggestion</option>
+					</select><br><br>
+				</fieldset>
+				<input type="submit" value="Submit" href="index.html">
+			</form>
+		</body>
+
+</html>
