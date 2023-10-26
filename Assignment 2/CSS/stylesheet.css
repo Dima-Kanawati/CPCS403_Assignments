@@ -414,6 +414,27 @@ div.BodyBoxContact {
     font-weight: bold;
     width: 500px;
 }
+#FeedbackFormButton {
+    background-color: #966157;
+    color: #fff;
+    border: none;
+    margin-left: 47%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#FeedbackFormButton:hover {
+    background-color: #dda15e;
+}
+
+.feedbackTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* 
 	======================   Login and Signup   ======================
@@ -523,4 +544,80 @@ div.BodyBoxContact {
 
 .signup label:hover {
     text-decoration: underline;
+}
+
+/* 
+======================   Feedback Form   ======================
+ */
+
+ .feedbackbody {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.feedbackbody h1 {
+    text-align: center;
+}
+
+.feedbackbody form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #faf7f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.feedbackbody fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.feedbackbody legend {
+    font-weight: bold;
+}
+
+.feedbackbody label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+.feedbackbody textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.feedbackbody select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedbackbody input[type="submit"] {
+    background: #525252;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedbackbody input[type="submit"]:hover {
+    background: #dda15e;
 }
