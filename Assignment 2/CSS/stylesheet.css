@@ -212,7 +212,7 @@ cite {
     font-size: 30px;
     background: rgba(212, 163, 115, 0.4);
     padding: 20px;
-    margin: 50px 100px 40px 1200px;
+    margin: 50px 1200px 40px 100px;
     border-radius: 0px 25px 0px 25px;
 }
 
@@ -224,9 +224,8 @@ div.BodyBox {
     border-radius: 0px 25px 0px 25px;
 }
 
-/* BodyBox Heading 1 and 2 in all pages */
-div.BodyBox h1,
-h2 {
+/* BodyBox Heading 1, 2 and 3 in all pages */
+div.BodyBox h1, h2, h3 {
     margin-top: 10px;
     margin-bottom: 20px;
     background: rgba(212, 163, 115, 0.3);
@@ -239,6 +238,11 @@ div.BodyBox h2 {
     margin-top: 30px;
 }
 
+/* BodyBox Heading 3 in all pages */
+div.BodyBox h3 {
+	margin-right: 1040px;
+}
+
 /* BodyBox img with id signimgH */
 div.BodyBox #signimgH {
     margin-right: 450px;
@@ -247,6 +251,8 @@ div.BodyBox #signimgH {
 /* BodyBox Paragraph in all pages */
 div.BodyBox p {
     font-size: 20px;
+	margin-left: 15px;
+	margin-right: 25px;
 }
 
 /* BodyBox description list dt in all pages */
@@ -255,7 +261,7 @@ div.BodyBox p {
     font-size: 20px;
     margin: 0px 800px 5px 20px;
     background: rgba(212, 163, 115, 0.3);
-    padding: 2px;
+    padding: 10px;
     border-radius: 0px 15px 0px 15px;
 }
 
@@ -264,6 +270,35 @@ div.BodyBox p {
     font-size: 18px;
     margin-left: 35px;
     margin-bottom: 10px;
+}
+
+/* In-Text Link Box style for all pages */
+.LinkBox {
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(212, 163, 115, 0.5);
+	padding: 5px;
+	border-radius: 0px 10px 0px 10px;
+}
+
+.LinkBox a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+.LinkBox:hover {
+	background: rgba(212, 163, 115, 0.8);
+}
+
+/* Text align to center*/
+.center {
+	text-align: center;
+}
+
+/* Fix margin for lessons and quizzes titles*/
+#longTitle {
+	margin-right: 1000px;
 }
 
 
@@ -359,56 +394,11 @@ div.BodyBox ol li {
 	background-color: rgba(255, 255, 255, 0.1);
 }
 
+
 /* 
-	======================   LEVELS   ======================
+	======================   LESSON   ======================
 */
 
-/* Levels container in Levels page only */
-.Levels img {
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-/*  in Levels page only */
-.Levels P {
-    font-size: 16px;
-    background: rgba(212, 163, 115, 0.4);
-    color: #966157;
-    position: absolute;
-    padding: 10px;
-    border-radius: 15px;
-}
-
-/* Levels img left side in Levels page only */
-.leftLvl {
-    margin-left: 470px;
-}
-
-/* Levels img right side in Levels page only */
-.rightLvl {
-    margin-left: 650px;
-}
-
-/* Levels description left side in Levels page only */
-#leftP {
-    margin: 10px 930px auto 160px;
-}
-
-/* Levels description right side in Levels page only */
-#rightP {
-    margin: 10px 315px auto 775px;
-}
-
-
-/* revision img in Levels page only */
-#rivision {
-    margin: 50px auto 100px 475px;
-}
-
-/* revision description in Levels page only */
-#revisionP {
-    margin: 170px auto 0px 280px;
-}
 
 /* 
 	======================   CONTACT   ======================
