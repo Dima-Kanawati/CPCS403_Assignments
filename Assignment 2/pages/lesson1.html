@@ -8,152 +8,177 @@
 -->
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Emaa | Lesson 1 Page</title>
-        <link rel="stylesheet" href="../global/stylesheet.css">
-    </head>
-    <body>
-		
-		<!-- Main content wrapper div -->
-        <div class="emaa">
-			
-			<!-- Navigation section -->
-            <nav>
-			
-				<!-- Website logo linked to homepage -->
-                <a href = "index.html"><img src="../image/logo.png" class="logo"></a>
-                
-				<!-- Main menu items -->
-				<ul id="menu">
-					
-					<!-- Menu items with navigation links -->
-                    <li><a href = "index.html">Home</a></li>
-                    <li><a href = "learn.html">Learn</a></li>
-                    <li><a href = "contact.html">Contact</a></li>
-                </ul>
-				
-				<!-- User profile picture with a click event to show sub-menu -->
-                <img src="../image/user.png" class="user-pic" onclick="ToggleMenu()">
-                
-				<!-- Dropdown sub-menu for the user, initially hidden -->
-				<div class="sub-menu-wrap" id = "subMenu">
-                    <div class="sub-menu">
-					
-						<!-- User information section -->
-                        <div class="user-info">
-                            <img src="../image/user.png">
-                            <h2 id="username">Hadi Abukan</h2>
-                        </div>
-                        <hr>
 
-						<!-- Sub-menu navigation items with respective icons -->
-                        <a href="contact.html" class="sub-menu-link">
-                            <img src="../image/help.png">
-                            <p>Help & Support</p>
-                            <span>></span>
-                        </a>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Emaa | Lesson 1 Page</title>
+	<link rel="stylesheet" href="../global/stylesheet.css">
+</head>
 
-                        <a href="loginSignup.html" class="sub-menu-link">
-                            <img src="../image/logout.png">
-                            <p>Logout</p>
-                            <span>></span>
-                        </a>
-                    </div>
-                </div>
-            </nav>
-			
-			 <!-- Horizontal divider -->
-			<hr>
-			
-			 <!-- Display the title of the current page -->
-			<div class="PageTitle" id="longTitle">
-				<p>Lesson 1: The Alphabets 1/4</p>
+<body>
+
+	<!-- Main content wrapper div -->
+	<div class="emaa">
+
+		<!-- Navigation section -->
+		<nav>
+
+			<!-- Website logo linked to homepage -->
+			<a href="index.html"><img src="../images/logo.png" class="logo"></a>
+
+			<!-- Main menu items -->
+			<ul id="menu">
+
+				<!-- Menu items with navigation links -->
+				<li><a href="index.html">Home</a></li>
+				<li><a href="learn.html">Learn</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+
+			<!-- User profile picture with a click event to show sub-menu -->
+			<img src="../images/user.png" class="user-pic" onclick="ToggleMenu()">
+
+			<!-- Dropdown sub-menu for the user, initially hidden -->
+			<div class="sub-menu-wrap" id="subMenu">
+				<div class="sub-menu">
+
+					<!-- User information section -->
+					<div class="user-info">
+						<img src="../images/user.png">
+						<h2 id="username">Hadi Abukan</h2>
+					</div>
+					<hr>
+
+					<!-- Sub-menu navigation items with respective icons -->
+					<a href="contact.html" class="sub-menu-link">
+						<img src="../images/help.png">
+						<p>Help & Support</p>
+						<span>></span>
+					</a>
+
+					<a href="loginSignup.html" class="sub-menu-link">
+						<img src="../images/logout.png">
+						<p>Logout</p>
+						<span>></span>
+					</a>
+				</div>
 			</div>
-			
-			<!-- Page Contents -->
-			
-			<div class="BodyBox">
-				
-				<p>In the first lesson, you will learn the following letters: خ ,ح ,ج ,ث ,ت ,ب ,أ</p>
-				
-				<br>
-				<hr>
-				<br>
-				
-				<h3>First Letter: أ</h3>
-				<p>Put video here...</p>
-				
-				<br>
-				<hr>
-				<br>
-				
-				<h3>Second Letter: ب</h3>
-				<p>Put video here...</p>
-				
-				<br>
-				<hr>
-				<br>
-				
-				<h3>Third Letter: ت</h3>
-				<p>Put video here...</p>
-				
-				<br>
-				<hr>
-				<br>
-				
-				<h3>Forth Letter: ث</h3>
-				<p>Put video here...</p>
-				
-				<br>
-				<hr>
-				<br>
-				
-				<h3>Fifth Letter: ج</h3>
-				<p>Put video here...</p>
-				
-				<br>
-				<hr>
-				<br>
-				
-				<h3>Sixth Letter: ح</h3>
-				<p>Put video here...</p>
-				
-				<br>
-				<hr>
-				<br>
-				
-				<h3>Seventh Letter: خ</h3>
-				<p>Put video here...</p>
-				
-			</div>
-			
-			<div class="BodyBox">
-			
-				<h1>Quiz</h1>
-				<p class="center">Test your self here: 
-				<span class="LinkBox"><a href="quiz1.html">Quiz 1: The Alphabets 1/4</a></span>
-				</p>
-			
-			</div>
-		
+		</nav>
+
+		<!-- Horizontal divider -->
+		<hr>
+
+		<!-- Display the title of the current page -->
+		<div class="PageTitle" id="longTitle">
+			<p>Lesson 1: The Alphabets 1/4</p>
 		</div>
-		
-		<!-- JavaScript function to toggle the user's sub-menu -->
-        <script>
-            let subMenu = document.getElementById("subMenu");
-            function ToggleMenu(){
-                subMenu.classList.toggle("open-menu");
-            }
-        </script>
-		
-    </body>
-	
-	<!-- Footer section with contact information and copyright information  -->
-    <address>
-        Address: FCIT<br>
-        Contact us at the email <a href="mailto:Emaa@gmail.com">Emaa</a><br>
-        <span>&#169Copyright to Hadeel & Dima</span><br>
-        </address>
-        <p><cite>Cite: Emaa</cite> 
+
+		<!-- Page Contents -->
+
+		<div class="BodyBox">
+
+			<p>In the first lesson, you will learn the following letters: خ ,ح ,ج ,ث ,ت ,ب ,أ</p>
+
+			<br>
+			<hr>
+			<br>
+
+			<h3>First Letter: أ</h3>
+			<p>
+				<video controls width="300" height="200">
+					<source src="../videos/Aleff.mp4" type="video/mp4">
+				</video>
+			</p>
+			<br>
+			<hr>
+			<br>
+
+			<h3>Second Letter: ب</h3>
+			<p>
+				<video controls width="300" height="200">
+					<source src="../videos/Baa.mp4" type="video/mp4">
+				</video>
+			</p>
+			<br>
+			<hr>
+			<br>
+
+			<h3>Third Letter: ت</h3>
+			<p>
+				<video controls width="300" height="200">
+					<source src="../videos/Taa.mp4" type="video/mp4">
+				</video>
+			</p>
+			<br>
+			<hr>
+			<br>
+
+			<h3>Forth Letter: ث</h3>
+			<p>
+				<video controls width="300" height="200">
+					<source src="../videos/Thaa.mp4" type="video/mp4">
+				</video>
+			</p>
+			<br>
+			<hr>
+			<br>
+
+			<h3>Fifth Letter: ج</h3>
+			<p>
+				<video controls width="300" height="200">
+					<source src="../videos/Jeem.mp4" type="video/mp4">
+				</video>
+			</p>
+			<br>
+			<hr>
+			<br>
+
+			<h3>Sixth Letter: ح</h3>
+			<p>
+				<video controls width="300" height="200">
+					<source src="../videos/Haa.mp4" type="video/mp4">
+				</video>
+			</p>
+			<br>
+			<hr>
+			<br>
+
+			<h3>Seventh Letter: خ</h3>
+			<p>
+				<video controls width="300" height="200">
+					<source src="../videos/Khaa.mp4" type="video/mp4">
+				</video>
+			</p>
+
+		</div>
+
+		<div class="BodyBox">
+
+			<h1>Quiz</h1>
+			<p class="center">Test your self here:
+				<span class="LinkBox"><a href="quiz1.html">Quiz 1: The Alphabets 1/4</a></span>
+			</p>
+
+		</div>
+
+	</div>
+
+	<!-- JavaScript function to toggle the user's sub-menu -->
+	<script>
+		let subMenu = document.getElementById("subMenu");
+		function ToggleMenu() {
+			subMenu.classList.toggle("open-menu");
+		}
+	</script>
+
+</body>
+
+<!-- Footer section with contact information and copyright information  -->
+<address>
+	Address: FCIT<br>
+	Contact us at the email <a href="mailto:Emaa@gmail.com">Emaa</a><br>
+	<span>&#169Copyright to Hadeel & Dima</span><br>
+</address>
+<p><cite>Cite: Emaa</cite>
+
 </html>
