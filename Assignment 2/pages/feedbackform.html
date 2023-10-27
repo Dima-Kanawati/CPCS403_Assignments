@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
 	<!-- Main content wrapper div -->
 	<div class="emaa">
 
@@ -73,6 +72,7 @@
 
 		<body class="feedbackbody">
 			<form action="#" method="post">
+				<!-- Personal info section -->
 				<fieldset>
 					<legend>Personal Information</legend>
 					<label for="name">Name:</label>
@@ -82,24 +82,26 @@
 					<input type="email" id="email" name="email" required><br><br>
 				</fieldset>
 
+				<!-- Feedback section -->
 				<fieldset>
 					<legend>Feedback</legend>
+					<!-- Radio question -->
 					<label for="rating">How satisfied are you with our Website?</label><br>
 					<input type="radio" id="rating-excellent" name="rating" value="Excellent">Excellent
 					<input type="radio" id="rating-good" name="rating" value="Good">Good
 					<input type="radio" id="rating-fair" name="rating" value="Fair">Fair
 					<input type="radio" id="rating-poor" name="rating" value="Poor">Poor<br><br>
-
+					<!-- Checkbox questions -->
 					<label>What section would you like to change? (Check all that apply)</label><br>
 					<input type="checkbox" id="improvement-quiz" name="improvement" value="Quizes">Quizes
 					<input type="checkbox" id="improvement-learn" name="improvement" value="Learn page">Learn page
 					<input type="checkbox" id="improvement-price" name="improvement" value="Levels">Levels
 					<input type="checkbox" id="improvement-customer-service" name="improvement"
 						value="Customer Service">Customer Service<br><br>
-
+					<!-- Textarea question -->
 					<label for="feedback">Additional Comments:</label><br>
 					<textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
-
+					<!-- Dropdown questions -->
 					<label for="typeOfFeedback">Type of Feedback:</label>
 					<select id="typeOfFeedback" name="typeOfFeedback">
 						<option value="General">General</option>
