@@ -1,0 +1,28 @@
+/*  
+	Assignment 2
+	Group Number: 3
+	Name: Hadeel Abuhamous ID: 2006291
+    Name: Dima Kanawati    ID: 1917074
+	Section: BAR
+    Date: 25 October 2023  
+
+    
+*/
+
+/* Set the page orientation to landscape */
+@page {
+    size: landscape;
+}
+
+/* Hide all elements in the page except the table element */
+nav, address, cite, .PageTitle, .BodyBox{
+	display: none;
+}
+
+.emaa {
+	display: contents;
+}
+
+.tablePlan {
+	margin-top: 100px;	
+}
