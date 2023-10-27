@@ -72,6 +72,30 @@
 			</div>
 			
 			<!-- Page Contents -->
+			<div class="BodyBox">
+			
+				<div class="quiz">
+					<h2>Choose the right answer</h2>
+					<p>What does this sign mean?</p>
+					
+					<img src="../images/quiz1_Q1.png">
+					
+					<p>
+					<input type="radio" name="answer" value="option1">The letter 'أ'
+					<br>
+					<input type="radio" name="answer" value="option2">The letter 'ج'
+					<br>
+					<input type="radio" name="answer" value="option3">The  letter 'خ'
+					<br>
+					</p>
+					
+					<button onclick="checkAnswer()">Submit Answer</button>
+					<p id="result"></p>
+					
+				</div>
+
+			</div>
+			
 			
 		
 		</div>
@@ -82,6 +106,22 @@
             function ToggleMenu(){
                 subMenu.classList.toggle("open-menu");
             }
+			
+		<!-- JavaScript function to check and display user's result -->
+			function checkAnswer() {
+            var selectedAnswer = document.querySelector('input[name="answer"]:checked');
+            if (selectedAnswer) {
+                var result = document.getElementById("result");
+                if (selectedAnswer.value === "option2") {
+                    result.textContent = "Correct! That's the right sign.";
+                } else {
+                    result.textContent = "Incorrect. Try again!";
+                }
+            } else {
+                alert("Please select an answer.");
+            }
+        }
+			
         </script>
 		
     </body>
