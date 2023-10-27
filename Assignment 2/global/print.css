@@ -19,6 +19,7 @@ nav, address, cite, .PageTitle, .BodyBox{
 	display: none;
 }
 
+/* Hide emaa container while keep showing its contents */
 .emaa {
 	display: contents;
 }
